@@ -43,7 +43,7 @@ if (typeof __DEV__ === 'undefined') {
     var modelUtil = require('./util/model');
     var throttle = require('./util/throttle');
 
-    var zrender = require('zrender');
+    var zrender = require('../zrender/zrender');
     var zrUtil = require('../zrender/core/util');
     var colorTool = require('../zrender/tool/color');
     var Eventful = require('../zrender/mixin/Eventful');

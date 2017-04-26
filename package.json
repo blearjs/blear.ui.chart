@@ -33,7 +33,10 @@
   "bugs": {
     "url": "https://github.com/blearjs/blear.ui.chart/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "blear.core.selector": "^1.0.8",
+    "blear.ui": "^1.0.8"
+  },
   "peerDependencies": {},
   "devDependencies": {
     "coolie.js": "^2.1.7",
