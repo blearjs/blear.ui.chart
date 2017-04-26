@@ -5,7 +5,7 @@
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
     "test": "node ./node_modules/.bin/karma start karma.conf.js --single-run",
-    "prepublish": "npm test"
+    "prepublish2": "npm test"
   },
   "preferGlobal": false,
   "bin": {},
