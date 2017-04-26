@@ -17,16 +17,29 @@ var Chart = UI.extend({
         this[_echarts] = echarts.init(el);
     },
 
+    /**
+     * 渲染
+     * @param options
+     * @returns {Chart}
+     */
     render: function (options) {
         this[_echarts].setOption(options, true);
         return this;
     },
 
+    /**
+     * 装饰
+     * @param options
+     * @returns {Chart}
+     */
     decorate: function (options) {
         this[_echarts].setOption(options, false);
         return this;
     },
 
+    /**
+     * 销毁实例
+     */
     destroy: function () {
         this[_echarts].clear();
         this[_echarts] = null;
