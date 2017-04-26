@@ -1,10 +1,10 @@
 /**
  * blear.ui.chart
  * @author ydr.me
- * @create 2016年06月04日14:09:36
+ * @create 2017年04月26日11:33:15
  */
 
 'use strict';
 
-module.exports = 'index';
+
 
