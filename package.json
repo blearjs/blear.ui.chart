@@ -1,11 +1,10 @@
 {
   "name": "blear.ui.chart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS 图表，基于百度的 ECharts v3.5.3 + Zrender v3.4.3",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
-    "test": "node ./node_modules/.bin/karma start karma.conf.js --single-run",
-    "prepublish2": "npm test"
+    "test": "node ./node_modules/.bin/karma start karma.conf.js --single-run"
   },
   "preferGlobal": false,
   "bin": {},

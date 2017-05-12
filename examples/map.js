@@ -18,7 +18,7 @@ require('../src/echarts/component/visualMap');
 
 var chart = new Chart('#main');
 
-Chart.map('china', require('../src/maps/china.json'));
+Chart.map('china', require('../src/maps/china'));
 
 chart.render({
     title: {
