@@ -16,6 +16,15 @@ require('../src/echarts/chart/bar');
 // require('../src/echarts/component/legend');
 
 var chart = new Chart('#main');
+var colors = [
+    '#ffca30',
+    '#7e88ea',
+    '#f25c81',
+    '#f7a35b',
+    '#96ceff',
+    '#1ae7c8'
+];
+var categories = ['收银通预约', '公务卡预约', '贷款预约', '大额提现预约', 'ETC预约', 'POS收单预约'];
 
 chart.render({
     grid: {
@@ -28,7 +37,62 @@ chart.render({
     yAxis: [
         {
             type: 'category',
-            data: ['收银通预约', '公务卡预约', '贷款预约', '大额提现预约', 'ETC预约', 'POS收单预约']
+            data: [
+                {
+                    value: '●',
+                    textStyle: {
+                        width: 14,
+                        height: 14,
+                        borderRadius: 14,
+                        color: colors[0]
+                    }
+                },
+                {
+                    value: '●',
+                    textStyle: {
+                        width: 14,
+                        height: 14,
+                        borderRadius: 14,
+                        color: colors[1]
+                    }
+                },
+                {
+                    value: '●',
+                    textStyle: {
+                        width: 14,
+                        height: 14,
+                        borderRadius: 14,
+                        color: colors[2]
+                    }
+                },
+                {
+                    value: '●',
+                    textStyle: {
+                        width: 14,
+                        height: 14,
+                        borderRadius: 14,
+                        color: colors[3]
+                    }
+                },
+                {
+                    value: '●',
+                    textStyle: {
+                        width: 14,
+                        height: 14,
+                        borderRadius: 14,
+                        color: colors[4]
+                    }
+                },
+                {
+                    value: '●',
+                    textStyle: {
+                        width: 14,
+                        height: 14,
+                        borderRadius: 14,
+                        color: colors[5]
+                    }
+                }
+            ]
         }
     ],
     xAxis: [
@@ -50,7 +114,7 @@ chart.render({
                     value: 100,
                     itemStyle: {
                         normal: {
-                            color: '#ffca30'
+                            color: colors[0]
                         }
                     }
                 },
@@ -58,7 +122,7 @@ chart.render({
                     value: 2,
                     itemStyle: {
                         normal: {
-                            color: '#7e88ea'
+                            color: colors[1]
                         }
                     }
                 },
@@ -66,7 +130,7 @@ chart.render({
                     value: 80,
                     itemStyle: {
                         normal: {
-                            color: '#f25c81'
+                            color: colors[2]
                         }
                     }
                 },
@@ -74,7 +138,7 @@ chart.render({
                     value: 41,
                     itemStyle: {
                         normal: {
-                            color: '#f7a35b'
+                            color: colors[3]
                         }
                     }
                 },
@@ -82,7 +146,7 @@ chart.render({
                     value: 19,
                     itemStyle: {
                         normal: {
-                            color: '#96ceff'
+                            color: colors[4]
                         }
                     }
                 },
@@ -90,7 +154,7 @@ chart.render({
                     value: 15,
                     itemStyle: {
                         normal: {
-                            color: '#1ae7c8'
+                            color: colors[5]
                         }
                     }
                 }
@@ -100,7 +164,11 @@ chart.render({
                     show: true,
                     position: 'right',
                     // 模板变量有 {a}、{b}、{c}，分别表示系列名，数据名，数据值。
-                    formatter: "{b}{c}次"
+                    // formatter: '{c}次'
+                    formatter: function (meta) {
+                        var category = categories[meta.dataIndex];
+                        return category + meta.value + '次';
+                    }
                 }
             }
         }
