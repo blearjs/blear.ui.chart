@@ -2,15 +2,15 @@ var graphic = require("../../util/graphic");
 
 var Line = require("./Line");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var _symbol = require("../../util/symbol");
 
 var createSymbol = _symbol.createSymbol;
 
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
-var curveUtil = require("zrender/lib/core/curve");
+var curveUtil = require("../../../zrender/core/curve");
 
 /**
  * Provide effect for line

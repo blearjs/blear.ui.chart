@@ -1,4 +1,4 @@
-var Path = require("zrender/lib/graphic/Path");
+var Path = require("../../../zrender/graphic/Path");
 
 var _default = Path.extend({
   type: 'echartsGaugePointer',

@@ -1,4 +1,4 @@
-var _util = require("zrender/lib/core/util");
+var _util = require("../../../zrender/core/util");
 
 var retrieve = _util.retrieve;
 var defaults = _util.defaults;
@@ -20,9 +20,9 @@ var _symbol = require("../../util/symbol");
 
 var createSymbol = _symbol.createSymbol;
 
-var matrixUtil = require("zrender/lib/core/matrix");
+var matrixUtil = require("../../../zrender/core/matrix");
 
-var _vector = require("zrender/lib/core/vector");
+var _vector = require("../../../zrender/core/vector");
 
 var v2ApplyTransform = _vector.applyTransform;
 var PI = Math.PI;

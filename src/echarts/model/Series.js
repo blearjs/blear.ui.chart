@@ -2,9 +2,9 @@ var _config = require("../config");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../zrender/core/util");
 
-var env = require("zrender/lib/core/env");
+var env = require("../../zrender/core/env");
 
 var _format = require("../util/format");
 

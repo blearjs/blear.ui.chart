@@ -1,8 +1,8 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var Eventful = require("zrender/lib/mixin/Eventful");
+var Eventful = require("../../../zrender/mixin/Eventful");
 
-var eventTool = require("zrender/lib/core/event");
+var eventTool = require("../../../zrender/core/event");
 
 var interactionMutex = require("./interactionMutex");
 

@@ -1,6 +1,6 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var matrix = require("zrender/lib/core/matrix");
+var matrix = require("../../../zrender/core/matrix");
 
 var layoutUtil = require("../../util/layout");
 

@@ -4,7 +4,7 @@ var List = require("../../data/List");
 
 var completeDimensions = require("../../data/helper/completeDimensions");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var _format = require("../../util/format");
 

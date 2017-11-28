@@ -1,4 +1,4 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../../zrender/core/util");
 
 var geoCoordMap = {
   'Russia': [100, 60],

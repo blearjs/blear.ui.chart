@@ -1,4 +1,4 @@
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
 var scaleAndAdd = vec2.scaleAndAdd; // function adjacentNode(n, e) {
 //     return e.n1 === n ? e.n2 : e.n1;

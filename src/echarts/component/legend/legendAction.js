@@ -1,6 +1,6 @@
 var echarts = require("../../echarts");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 function legendSelectActionHandler(methodName, payload, ecModel) {
   var selectedMap = {};

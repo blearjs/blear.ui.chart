@@ -2,7 +2,7 @@ var echarts = require("../../echarts");
 
 var graphic = require("../../util/graphic");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var symbolUtil = require("../../util/symbol");
 

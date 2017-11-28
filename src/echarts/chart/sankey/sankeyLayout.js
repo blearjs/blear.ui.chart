@@ -2,7 +2,7 @@ var layout = require("../../util/layout");
 
 var nest = require("../../util/array/nest");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 /**
  * @file The layout algorithm of sankey view

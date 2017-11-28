@@ -1,8 +1,8 @@
 var graphic = require("../../util/graphic");
 
-var lineContain = require("zrender/lib/contain/line");
+var lineContain = require("../../../zrender/contain/line");
 
-var quadraticContain = require("zrender/lib/contain/quadratic");
+var quadraticContain = require("../../../zrender/contain/quadratic");
 
 // TODO Batch by color
 var LargeLineShape = graphic.extendShape({

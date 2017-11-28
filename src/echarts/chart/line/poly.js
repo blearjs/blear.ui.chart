@@ -1,8 +1,8 @@
-var Path = require("zrender/lib/graphic/Path");
+var Path = require("../../../zrender/graphic/Path");
 
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
-var fixClipWithShadow = require("zrender/lib/graphic/helper/fixClipWithShadow");
+var fixClipWithShadow = require("../../../zrender/graphic/helper/fixClipWithShadow");
 
 // Poly path support NaN point
 var vec2Min = vec2.min;

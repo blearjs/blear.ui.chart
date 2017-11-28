@@ -1,6 +1,6 @@
 var graphic = require("../../util/graphic");
 
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
 /**
  * Line path for bezier and straight line draw

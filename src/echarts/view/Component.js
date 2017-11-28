@@ -1,4 +1,4 @@
-var Group = require("zrender/lib/container/Group");
+var Group = require("../../zrender/container/Group");
 
 var componentUtil = require("../util/component");
 

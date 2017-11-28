@@ -1,6 +1,6 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../zrender/core/util");
 
-var zrColor = require("zrender/lib/tool/color");
+var zrColor = require("../../zrender/tool/color");
 
 var _number = require("../util/number");
 

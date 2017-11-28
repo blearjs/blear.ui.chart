@@ -1,8 +1,8 @@
 var echarts = require("../../echarts");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var env = require("zrender/lib/core/env");
+var env = require("../../../zrender/core/env");
 
 var TooltipContent = require("./TooltipContent");
 

@@ -1,4 +1,4 @@
-var textContain = require("zrender/lib/contain/text");
+var textContain = require("../../../zrender/contain/text");
 
 var graphicUtil = require("../../util/graphic");
 

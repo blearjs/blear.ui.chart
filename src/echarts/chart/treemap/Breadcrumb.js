@@ -2,7 +2,7 @@ var graphic = require("../../util/graphic");
 
 var layout = require("../../util/layout");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var _helper = require("./helper");
 

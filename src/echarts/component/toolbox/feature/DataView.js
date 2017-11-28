@@ -1,8 +1,8 @@
 var echarts = require("../../../echarts");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../../zrender/core/util");
 
-var eventTool = require("zrender/lib/core/event");
+var eventTool = require("../../../../zrender/core/event");
 
 var lang = require("../../../lang");
 

@@ -1,4 +1,4 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 // TODO Parse shadow style
 // TODO Only shallow path support

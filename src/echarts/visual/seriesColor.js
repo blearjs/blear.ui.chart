@@ -1,4 +1,4 @@
-var Gradient = require("zrender/lib/graphic/Gradient");
+var Gradient = require("../../zrender/graphic/Gradient");
 
 function _default(ecModel) {
   function encodeColor(seriesModel) {

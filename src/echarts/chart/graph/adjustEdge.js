@@ -1,6 +1,6 @@
-var curveTool = require("zrender/lib/core/curve");
+var curveTool = require("../../../zrender/core/curve");
 
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
 var v1 = [];
 var v2 = [];

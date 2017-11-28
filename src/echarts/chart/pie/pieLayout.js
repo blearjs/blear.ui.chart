@@ -5,7 +5,7 @@ var linearMap = _number.linearMap;
 
 var labelLayout = require("./labelLayout");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var PI2 = Math.PI * 2;
 var RADIAN = Math.PI / 180;

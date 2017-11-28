@@ -1,4 +1,4 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../zrender/core/util");
 
 /**
  * @param {number} [time=500] Time in ms

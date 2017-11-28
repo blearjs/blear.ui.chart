@@ -1,8 +1,8 @@
 var VisualMapping = require("../../visual/VisualMapping");
 
-var zrColor = require("zrender/lib/tool/color");
+var zrColor = require("../../../zrender/tool/color");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var isArray = zrUtil.isArray;
 var ITEM_STYLE_NORMAL = 'itemStyle.normal';

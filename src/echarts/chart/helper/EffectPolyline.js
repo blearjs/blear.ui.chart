@@ -1,10 +1,10 @@
 var Polyline = require("./Polyline");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var EffectLine = require("./EffectLine");
 
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
 /**
  * Provide effect for line

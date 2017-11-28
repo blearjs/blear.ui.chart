@@ -1,6 +1,6 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var colorUtil = require("zrender/lib/tool/color");
+var colorUtil = require("../../../zrender/tool/color");
 
 var List = require("../../data/List");
 

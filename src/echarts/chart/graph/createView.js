@@ -4,7 +4,7 @@ var _layout = require("../../util/layout");
 
 var getLayoutRect = _layout.getLayoutRect;
 
-var bbox = require("zrender/lib/core/bbox");
+var bbox = require("../../../zrender/core/bbox");
 
 // FIXME Where to create the simple view coordinate system
 function getViewRect(seriesModel, api, aspect) {

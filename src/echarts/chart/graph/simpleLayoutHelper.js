@@ -1,4 +1,4 @@
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
 function simpleLayout(seriesModel) {
   var coordSys = seriesModel.coordinateSystem;

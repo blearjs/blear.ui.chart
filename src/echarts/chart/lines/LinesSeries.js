@@ -6,7 +6,7 @@ var SeriesModel = require("../../model/Series");
 
 var List = require("../../data/List");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var _format = require("../../util/format");
 

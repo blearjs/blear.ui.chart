@@ -1,4 +1,4 @@
-var _util = require("zrender/lib/core/util");
+var _util = require("../../zrender/core/util");
 
 var each = _util.each;
 var isArray = _util.isArray;

@@ -1,8 +1,8 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var BoundingRect = require("zrender/lib/core/BoundingRect");
+var BoundingRect = require("../../../zrender/core/BoundingRect");
 
-var matrix = require("zrender/lib/core/matrix");
+var matrix = require("../../../zrender/core/matrix");
 
 var graphic = require("../../util/graphic");
 

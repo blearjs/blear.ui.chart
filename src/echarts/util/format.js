@@ -1,6 +1,6 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../zrender/core/util");
 
-var textContain = require("zrender/lib/contain/text");
+var textContain = require("../../zrender/contain/text");
 
 var numberUtil = require("./number");
 

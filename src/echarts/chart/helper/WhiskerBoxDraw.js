@@ -1,8 +1,8 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var graphic = require("../../util/graphic");
 
-var Path = require("zrender/lib/graphic/Path");
+var Path = require("../../../zrender/graphic/Path");
 
 /**
  * @module echarts/chart/helper/Symbol

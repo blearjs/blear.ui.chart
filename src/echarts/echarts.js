@@ -2,17 +2,17 @@ var _config = require("./config");
 
 var __DEV__ = _config.__DEV__;
 
-var zrender = require("zrender/lib/zrender");
+var zrender = require("../zrender/zrender");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../zrender/core/util");
 
-var colorTool = require("zrender/lib/tool/color");
+var colorTool = require("../zrender/tool/color");
 
-var env = require("zrender/lib/core/env");
+var env = require("../zrender/core/env");
 
-var timsort = require("zrender/lib/core/timsort");
+var timsort = require("../zrender/core/timsort");
 
-var Eventful = require("zrender/lib/mixin/Eventful");
+var Eventful = require("../zrender/mixin/Eventful");
 
 var GlobalModel = require("./model/Global");
 

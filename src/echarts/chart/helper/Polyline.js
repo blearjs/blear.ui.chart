@@ -1,6 +1,6 @@
 var graphic = require("../../util/graphic");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 /**
  * @module echarts/chart/helper/Line

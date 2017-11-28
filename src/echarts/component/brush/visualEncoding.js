@@ -1,8 +1,8 @@
 var echarts = require("../../echarts");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var BoundingRect = require("zrender/lib/core/BoundingRect");
+var BoundingRect = require("../../../zrender/core/BoundingRect");
 
 var visualSolution = require("../../visual/visualSolution");
 

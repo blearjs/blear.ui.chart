@@ -4,7 +4,7 @@ var completeDimensions = require("../../data/helper/completeDimensions");
 
 var WhiskerBoxDraw = require("../helper/WhiskerBoxDraw");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var seriesModelMixin = {
   /**

@@ -1,10 +1,10 @@
-var BoundingRect = require("zrender/lib/core/BoundingRect");
+var BoundingRect = require("../../../zrender/core/BoundingRect");
 
-var bbox = require("zrender/lib/core/bbox");
+var bbox = require("../../../zrender/core/bbox");
 
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
-var polygonContain = require("zrender/lib/contain/polygon");
+var polygonContain = require("../../../zrender/contain/polygon");
 
 /**
  * @module echarts/coord/geo/Region

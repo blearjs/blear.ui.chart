@@ -1,8 +1,8 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var LinearGradient = require("zrender/lib/graphic/LinearGradient");
+var LinearGradient = require("../../../zrender/graphic/LinearGradient");
 
-var eventTool = require("zrender/lib/core/event");
+var eventTool = require("../../../zrender/core/event");
 
 var VisualMapView = require("./VisualMapView");
 

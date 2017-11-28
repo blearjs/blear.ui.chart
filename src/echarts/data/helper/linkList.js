@@ -1,4 +1,4 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 /**
  * Link lists and struct (graph or tree)

@@ -1,18 +1,18 @@
-var zrender = require("zrender/lib/zrender");
+var zrender = require("../zrender/zrender");
 
 exports.zrender = zrender;
 
-var matrix = require("zrender/lib/core/matrix");
+var matrix = require("../zrender/core/matrix");
 
 exports.matrix = matrix;
 
-var vector = require("zrender/lib/core/vector");
+var vector = require("../zrender/core/vector");
 
 exports.vector = vector;
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../zrender/core/util");
 
-var colorTool = require("zrender/lib/tool/color");
+var colorTool = require("../zrender/tool/color");
 
 exports.color = colorTool;
 
@@ -49,7 +49,7 @@ var _Axis = require("./coord/Axis");
 
 exports.Axis = _Axis;
 
-var _env = require("zrender/lib/core/env");
+var _env = require("../zrender/core/env");
 
 exports.env = _env;
 

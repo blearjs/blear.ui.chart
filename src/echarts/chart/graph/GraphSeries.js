@@ -2,7 +2,7 @@ var echarts = require("../../echarts");
 
 var List = require("../../data/List");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var _model = require("../../util/model");
 

@@ -8,7 +8,7 @@ var graphic = require("../../util/graphic");
 
 var HeatmapLayer = require("./HeatmapLayer");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 function getIsInPiecewiseRange(dataExtent, pieceList, selected) {
   var dataSpan = dataExtent[1] - dataExtent[0];

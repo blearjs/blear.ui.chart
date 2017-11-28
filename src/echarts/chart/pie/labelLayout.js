@@ -1,4 +1,4 @@
-var textContain = require("zrender/lib/contain/text");
+var textContain = require("../../../zrender/contain/text");
 
 // FIXME emphasis label position is not same with normal label position
 function adjustSingleSide(list, cx, cy, r, dir, viewWidth, viewHeight) {

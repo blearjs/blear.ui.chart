@@ -1,12 +1,12 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../zrender/core/util");
 
-var vector = require("zrender/lib/core/vector");
+var vector = require("../../zrender/core/vector");
 
-var matrix = require("zrender/lib/core/matrix");
+var matrix = require("../../zrender/core/matrix");
 
-var BoundingRect = require("zrender/lib/core/BoundingRect");
+var BoundingRect = require("../../zrender/core/BoundingRect");
 
-var Transformable = require("zrender/lib/mixin/Transformable");
+var Transformable = require("../../zrender/mixin/Transformable");
 
 /**
  * Simple view coordinate system

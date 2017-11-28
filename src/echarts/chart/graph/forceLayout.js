@@ -14,9 +14,9 @@ var _number = require("../../util/number");
 
 var linearMap = _number.linearMap;
 
-var vec2 = require("zrender/lib/core/vector");
+var vec2 = require("../../../zrender/core/vector");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 function _default(ecModel) {
   ecModel.eachSeriesByType('graph', function (graphSeries) {

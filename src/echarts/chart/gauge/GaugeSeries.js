@@ -2,7 +2,7 @@ var List = require("../../data/List");
 
 var SeriesModel = require("../../model/Series");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var GaugeSeries = SeriesModel.extend({
   type: 'series.gauge',

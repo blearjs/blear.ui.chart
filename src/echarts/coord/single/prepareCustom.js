@@ -1,4 +1,4 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 function dataToCoordSize(dataSize, dataItem) {
   // dataItem is necessary in log axis.

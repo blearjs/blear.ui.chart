@@ -2,9 +2,9 @@ var _config = require("../../config");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var Eventful = require("zrender/lib/mixin/Eventful");
+var Eventful = require("../../../zrender/mixin/Eventful");
 
 var graphic = require("../../util/graphic");
 

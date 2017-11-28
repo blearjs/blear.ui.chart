@@ -6,7 +6,7 @@ var graphic = require("../../util/graphic");
 
 var viewHelper = require("./viewHelper");
 
-var matrix = require("zrender/lib/core/matrix");
+var matrix = require("../../../zrender/core/matrix");
 
 var AxisBuilder = require("../axis/AxisBuilder");
 

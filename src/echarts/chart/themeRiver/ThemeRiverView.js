@@ -6,7 +6,7 @@ var Polygon = _poly.Polygon;
 
 var graphic = require("../../util/graphic");
 
-var _util = require("zrender/lib/core/util");
+var _util = require("../../../zrender/core/util");
 
 var bind = _util.bind;
 var extend = _util.extend;

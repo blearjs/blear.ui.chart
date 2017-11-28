@@ -1,78 +1,78 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../zrender/core/util");
 
-var pathTool = require("zrender/lib/tool/path");
+var pathTool = require("../../zrender/tool/path");
 
-var colorTool = require("zrender/lib/tool/color");
+var colorTool = require("../../zrender/tool/color");
 
-var matrix = require("zrender/lib/core/matrix");
+var matrix = require("../../zrender/core/matrix");
 
-var vector = require("zrender/lib/core/vector");
+var vector = require("../../zrender/core/vector");
 
-var Path = require("zrender/lib/graphic/Path");
+var Path = require("../../zrender/graphic/Path");
 
-var Transformable = require("zrender/lib/mixin/Transformable");
+var Transformable = require("../../zrender/mixin/Transformable");
 
-var Image = require("zrender/lib/graphic/Image");
+var Image = require("../../zrender/graphic/Image");
 
 exports.Image = Image;
 
-var Group = require("zrender/lib/container/Group");
+var Group = require("../../zrender/container/Group");
 
 exports.Group = Group;
 
-var Text = require("zrender/lib/graphic/Text");
+var Text = require("../../zrender/graphic/Text");
 
 exports.Text = Text;
 
-var Circle = require("zrender/lib/graphic/shape/Circle");
+var Circle = require("../../zrender/graphic/shape/Circle");
 
 exports.Circle = Circle;
 
-var Sector = require("zrender/lib/graphic/shape/Sector");
+var Sector = require("../../zrender/graphic/shape/Sector");
 
 exports.Sector = Sector;
 
-var Ring = require("zrender/lib/graphic/shape/Ring");
+var Ring = require("../../zrender/graphic/shape/Ring");
 
 exports.Ring = Ring;
 
-var Polygon = require("zrender/lib/graphic/shape/Polygon");
+var Polygon = require("../../zrender/graphic/shape/Polygon");
 
 exports.Polygon = Polygon;
 
-var Polyline = require("zrender/lib/graphic/shape/Polyline");
+var Polyline = require("../../zrender/graphic/shape/Polyline");
 
 exports.Polyline = Polyline;
 
-var Rect = require("zrender/lib/graphic/shape/Rect");
+var Rect = require("../../zrender/graphic/shape/Rect");
 
 exports.Rect = Rect;
 
-var Line = require("zrender/lib/graphic/shape/Line");
+var Line = require("../../zrender/graphic/shape/Line");
 
 exports.Line = Line;
 
-var BezierCurve = require("zrender/lib/graphic/shape/BezierCurve");
+var BezierCurve = require("../../zrender/graphic/shape/BezierCurve");
 
 exports.BezierCurve = BezierCurve;
 
-var Arc = require("zrender/lib/graphic/shape/Arc");
+var Arc = require("../../zrender/graphic/shape/Arc");
 
 exports.Arc = Arc;
 
-var CompoundPath = require("zrender/lib/graphic/CompoundPath");
+var CompoundPath = require("../../zrender/graphic/CompoundPath");
 
 exports.CompoundPath = CompoundPath;
 
-var LinearGradient = require("zrender/lib/graphic/LinearGradient");
+var LinearGradient = require("../../zrender/graphic/LinearGradient");
 
 exports.LinearGradient = LinearGradient;
 
-var RadialGradient = require("zrender/lib/graphic/RadialGradient");
+var RadialGradient = require("../../zrender/graphic/RadialGradient");
 
 exports.RadialGradient = RadialGradient;
 
-var BoundingRect = require("zrender/lib/core/BoundingRect");
+var BoundingRect = require("../../zrender/core/BoundingRect");
 
 exports.BoundingRect = BoundingRect;
 var round = Math.round;

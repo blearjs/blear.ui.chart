@@ -1,4 +1,4 @@
-var BoundingRect = require("zrender/lib/core/BoundingRect");
+var BoundingRect = require("../../../zrender/core/BoundingRect");
 
 var _cursorHelper = require("./cursorHelper");
 

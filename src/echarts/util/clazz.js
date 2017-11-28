@@ -2,7 +2,7 @@ var _config = require("../config");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../zrender/core/util");
 
 var TYPE_DELIMITER = '.';
 var IS_CONTAINER = '___EC__COMPONENT__CONTAINER___';

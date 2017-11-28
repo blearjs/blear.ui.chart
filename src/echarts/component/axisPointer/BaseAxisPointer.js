@@ -1,4 +1,4 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var clazzUtil = require("../../util/clazz");
 
@@ -6,7 +6,7 @@ var graphic = require("../../util/graphic");
 
 var axisPointerModelHelper = require("./modelHelper");
 
-var eventTool = require("zrender/lib/core/event");
+var eventTool = require("../../../zrender/core/event");
 
 var throttleUtil = require("../../util/throttle");
 

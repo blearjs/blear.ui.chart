@@ -1,6 +1,6 @@
 var VisualMapping = require("../../visual/VisualMapping");
 
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 /**
  * @file Visual encoding for sankey view

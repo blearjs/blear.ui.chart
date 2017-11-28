@@ -1,6 +1,6 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
-var vector = require("zrender/lib/core/vector");
+var vector = require("../../../zrender/core/vector");
 
 var symbolUtil = require("../../util/symbol");
 

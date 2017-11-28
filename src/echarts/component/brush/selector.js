@@ -1,6 +1,6 @@
-var polygonContain = require("zrender/lib/contain/polygon");
+var polygonContain = require("../../../zrender/contain/polygon");
 
-var BoundingRect = require("zrender/lib/core/BoundingRect");
+var BoundingRect = require("../../../zrender/core/BoundingRect");
 
 // Key of the first level is brushType: `line`, `rect`, `polygon`.
 // Key of the second level is chart element type: `point`, `rect`.

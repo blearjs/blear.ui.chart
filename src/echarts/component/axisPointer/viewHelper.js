@@ -1,12 +1,12 @@
-var zrUtil = require("zrender/lib/core/util");
+var zrUtil = require("../../../zrender/core/util");
 
 var graphic = require("../../util/graphic");
 
-var textContain = require("zrender/lib/contain/text");
+var textContain = require("../../../zrender/contain/text");
 
 var formatUtil = require("../../util/format");
 
-var matrix = require("zrender/lib/core/matrix");
+var matrix = require("../../../zrender/core/matrix");
 
 var axisHelper = require("../../coord/axisHelper");
 
