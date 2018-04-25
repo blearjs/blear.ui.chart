@@ -56,4 +56,7 @@ chart.render({
     ]
 });
 
+chart.on('pieSelectChanged', function (ev) {
+    console.log(ev);
+});
 
